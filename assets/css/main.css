@@ -7,9 +7,14 @@
  font-weight: bold;
 }
 
+::-webkit-scrollbar {
+display: none;
+}
+
 body {
 	color: #FFF;
-	background: #000;
+	background: black;
+	
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -18,4 +23,16 @@ h1,h2,h3,h4,h5,h6 {
 	color: #fff;
 	font-size: 82px;
 }
+
+/*.overlay{
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	background-image: url('../images/gifs/conso.gif');
+	background-repeat: no-repeat;
+	background-size: cover; 
+	filter: blur(50px);
+	opacity: 0.4;
+}*/
 

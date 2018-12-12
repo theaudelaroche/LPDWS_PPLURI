@@ -32,6 +32,5 @@ $(document).ready(function(){
   		$('.gif-2').css("display", "none");
   		$('.gif-3').css("display", "block");
   	}
-  	
   }
 })

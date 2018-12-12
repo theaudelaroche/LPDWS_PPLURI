@@ -3,42 +3,59 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="assets/css/fullpage.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
   </head>
   <body>
-
-
+    <div class="overlay"></div>
   		<div id="parallax-bg3">
-        <div id="bg1">
+        <div id="bg1" class="small rotate">
           <img src="assets/images/gifs/influence.gif" class="gif-1" alt="">
           <img src="assets/images/gifs/conso.gif" class="gif-2" alt="">
           <img src="assets/images/gifs/ephemere.gif" class="gif-3" alt="">
         </div>
-        <div id="bg2">
+        <div id="bg1_2" class="medium rotate">
           <img src="assets/images/gifs/influence.gif" class="gif-1" alt="">
           <img src="assets/images/gifs/conso.gif" class="gif-2" alt="">
           <img src="assets/images/gifs/ephemere.gif" class="gif-3" alt="">
         </div>
-  			<div id="bg3">
+        <div id="bg2" class="small rotate">
+          <img src="assets/images/gifs/influence.gif" class="gif-1" alt="">
+          <img src="assets/images/gifs/conso.gif" class="gif-2" alt="">
+          <img src="assets/images/gifs/ephemere.gif" class="gif-3" alt="">
+        </div>
+        <div id="bg2_2" class="medium rotate">
+          <img src="assets/images/gifs/influence.gif" class="gif-1" alt="">
+          <img src="assets/images/gifs/conso.gif" class="gif-2" alt="">
+          <img src="assets/images/gifs/ephemere.gif" class="gif-3" alt="">
+        </div>
+  			<div id="bg3" class="rotate">
           <img src="assets/images/gifs/influence.gif" class="gif-1" alt="">
           <img src="assets/images/gifs/conso.gif" class="gif-2" alt="">
           <img src="assets/images/gifs/ephemere.gif" class="gif-3" alt="">
         </div>
   		</div>
   		<main>
-        <section>
-          <h2>MANIPULATION</h2>
-        </section>
-        <section>
-          <h2>CONSOMMATION</h2>
-        </section>
-        <section>
-          <h2>SEXUALISATION</h2>
-        </section>
+        <div id="fullpage">
+          <section class="section" id="section1">
+            <h2>MANIPULATION</h2>
+          </section>
+          <section class="section" id="section2">
+            <h2>CONSOMMATION</h2>
+          </section>
+          <section class="section" id="section3">
+            <h2>SEXUALISATION</h2>
+          </section>
+
+        </div>a
 	    </main>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    
     <script src="assets/js/parallax.js"></script>
+    <script src="assets/js/fullpage.min.js"></script>
+    <script src="assets/js/scrollAnchors.js"></script>
   </body>
 </html>
