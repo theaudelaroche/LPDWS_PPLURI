@@ -1,53 +1,57 @@
 body{
-			height: 400vh;
-			width: 100vw;
-			background-color: lightgray;
-		}
-		#parallax-bg3 {
-		    z-index: 3;
-		    position: fixed;
-		    left: 50%;
-		    top: 0;
-		    width: 940px;
-		    margin-left: -470px;
-		}
-    #bg1 {
-		    position: absolute;
-		    top: 50vh;
-		    left: 30vw;
-		    width: 100px;
-		    height: 100px;
-		    background-color: red;
-		}
-		#bg2 {
-      position: absolute;
-      top: 150vh;
-      left: 60vw;
-      width: 100px;
-      height: 100px;
-      background-color: red;
-		}
-    #bg3 {
-      position: absolute;
-      top: 250vh;
-      left: 60vw;
-      width: 100px;
-      height: 100px;
-      background-color: red;
-		}
-		#test{
-		    position: absolute;
-		    top: 1628px;
-		    left: 403px;
-		    width: 100px;
-		    height: 100px;
-		    background-color: red;
-		}
-    section{
-      height: 100vh;
-      width: 100vw;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+	height: 400vh;
+	width: 100vw;
+	background-color: lightgray;
+}
+#parallax-bg3 {
+	z-index: -1;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	width: 940px;
+	margin-left: -470px;
+}
+#bg1 {
+	position: absolute;
+	top: 50vh;
+	left: 30vw;
+}
+#bg2 {
+	position: absolute;
+	top: 80vh;
+	left: 60vw;
+}
+#bg3 {
+	position: absolute;
+	top: 120vh;
+	left: 60vw;
+}
+
+.gif-1 {
+	display: block;
+} 
+
+.gif-2 {
+	display: none;
+} 
+
+.gif-3 {
+	display: none;
+} 
+
+#test{
+	position: absolute;
+	top: 1628px;
+	left: 403px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+section{
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

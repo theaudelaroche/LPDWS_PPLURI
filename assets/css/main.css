@@ -3,12 +3,19 @@
 
 @font-face {
  font-family: "Noe Display";
- src: url("assets/fonts/NoeDisplay-Bold.woff") format("woff");
+ src: url("../fonts/NoeDisplay-Bold.woff") format("woff");
  font-weight: bold;
+}
+
+body {
+	color: #FFF;
+	background: #000;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Noe Display";
 	font-weight: bold;
-	color: #808080;
+	color: #fff;
+	font-size: 82px;
 }
+
