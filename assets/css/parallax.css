@@ -46,6 +46,16 @@
 	top: 120vh;
 	left: 50vw;
 }
+#bg4 {
+	position: absolute;
+	top: 180vh;
+	left: 30vw;
+}
+#bg4_2{
+	position: absolute;
+	top: 200vh;
+	left: 70vw;
+}
 .small img{
 	width: 15em;
 	height: auto;

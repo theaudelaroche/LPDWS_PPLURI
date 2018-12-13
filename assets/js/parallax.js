@@ -5,6 +5,6 @@ $(document).ready(function(){
 
   function parallaxScroll(){
     var scrolled = $(window).scrollTop();
-    $('#parallax1').css('top',(0-(scrolled*.3))+'px');
+    $('#parallax1').css('top',(0-(scrolled*.5))+'px');
   }
 })
