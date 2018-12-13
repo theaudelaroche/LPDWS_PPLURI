@@ -1,11 +1,6 @@
 @import "reset.css";
 @import "parallax.css";
 
-@font-face {
- font-family: "Noe Display";
- src: url("../fonts/NoeDisplay-Bold.woff") format("woff");
- font-weight: bold;
-}
 
 ::-webkit-scrollbar {
 display: none;
@@ -14,12 +9,11 @@ display: none;
 body {
 	color: #FFF;
 	background: black;
-	
+
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: "Noe Display";
-	font-weight: bold;
+	font-family: 'Playfair Display', serif;
 	color: #fff;
 	font-size: 82px;
 }
@@ -31,8 +25,7 @@ h1,h2,h3,h4,h5,h6 {
 	z-index: -1;
 	background-image: url('../images/gifs/conso.gif');
 	background-repeat: no-repeat;
-	background-size: cover; 
+	background-size: cover;
 	filter: blur(50px);
 	opacity: 0.4;
 }*/
-
