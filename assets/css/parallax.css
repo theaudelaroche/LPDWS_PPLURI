@@ -16,6 +16,11 @@
 	top: 60vh;
 	left: -8vw;
 }
+#bg1_3 {
+	position: absolute;
+	top: 10vh;
+	left: -10vw;
+}
 #bg2 {
 	position: absolute;
 	top: 80vh;
@@ -26,10 +31,20 @@
 	top: 100vh;
 	left: 80vw;
 }
+#bg2_3 {
+	position: absolute;
+	top: 90vh;
+	left: 30vw;
+}
 #bg3 {
 	position: absolute;
 	top: 120vh;
 	left: -10vw;
+}
+#bg3_2{
+	position: absolute;
+	top: 120vh;
+	left: 50vw;
 }
 .small img{
 	width: 15em;
@@ -39,6 +54,10 @@
 	width: 22em;
 	height: auto;
 }
+.large img{
+	width: 35em;
+	height: auto;
+}
 
 .rotate{
 	transform: rotate(-90deg);
@@ -46,15 +65,15 @@
 
 .gif-1 {
 	display: block;
-} 
+}
 
 .gif-2 {
 	display: none;
-} 
+}
 
 .gif-3 {
 	display: none;
-} 
+}
 
 #test{
 	position: absolute;
