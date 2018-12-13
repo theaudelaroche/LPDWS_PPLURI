@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $(window).bind('scroll',function(e){
       parallaxScroll();
-      changeSrc();
   });
 
   function parallaxScroll(){
@@ -12,7 +11,7 @@ $(document).ready(function(){
   function changeSrc(){
   	var scrolled = $(window).scrollTop();
   	var screen = $(window).height();
-  	
+
   	if(scrolled<screen){
   		console.log('premiere');
   		$('.gif-1').css("display", "block");
