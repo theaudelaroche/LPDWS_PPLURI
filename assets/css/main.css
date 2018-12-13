@@ -6,13 +6,22 @@
 display: none;
 }
 
+::-moz-selection { color: #000 background: #fff;}
+::selection { color: #000; background: #fff; }
+
+
+
 body {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
 	color: #FFF;
 	background: black;
-
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: default;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2{
 	font-family: 'Playfair Display', serif;
 	color: #fff;
 	font-size: 82px;
@@ -45,4 +54,62 @@ h1,h2,h3,h4,h5,h6 {
   100%{
     text-shadow: 0px 0px 15px white;
   }
+}
+
+div.about {
+    font-size: 16px;
+    position: fixed;
+    top: 80vh;
+    left: 0;
+}
+
+div.about-container {
+    height: 300px;
+    width: 100%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    z-index: 5;
+    transform: translateY(300px);
+    transition: .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    color: #000;
+    text-align: center;
+}
+
+div.about-container * {
+  margin: 10px 0;
+}
+
+.about:hover + .about-container, .about-container:hover {
+    transform: translateY(0);
+}
+
+div.about-container h3 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+div.about-container p {
+  margin-bottom: 30px;
+}
+
+div.about-container a {
+  color: #000;
+}
+
+.sofa {
+  width: 70%;
+  position: absolute;
+  right: 0;
+  bottom: -400px;
+}
+
+.about-container, .about {
+  transition: opacity .3s ease;
+}
+
+
+.fp-viewing-3 .about-container, .fp-viewing-3 .about {
+  opacity: 0;
 }
