@@ -97,3 +97,19 @@ div.about-container p {
 div.about-container a {
   color: #000;
 }
+
+.sofa {
+  width: 70%;
+  position: absolute;
+  right: 0;
+  bottom: -400px;
+}
+
+.about-container, .about {
+  transition: opacity .3s ease;
+}
+
+
+.fp-viewing-3 .about-container, .fp-viewing-3 .about {
+  opacity: 0;
+}
