@@ -1,4 +1,4 @@
-#parallax-bg3 {
+#parallax1 {
 	z-index: -1;
 	position: fixed;
 	left: 50%;
@@ -75,14 +75,6 @@
 	display: none;
 }
 
-#test{
-	position: absolute;
-	top: 1628px;
-	left: 403px;
-	width: 100px;
-	height: 100px;
-	background-color: red;
-}
 section{
 	text-align: center;
 }
