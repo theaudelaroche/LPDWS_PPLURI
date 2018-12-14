@@ -1,25 +1,22 @@
 #parallax1 {
 	z-index: -1;
 	position: fixed;
-	left: 50%;
-	top: 0;
-	width: 940px;
-	margin-left: -470px;
+	width: 100vw;
 }
 #bg1 {
 	position: absolute;
 	top: 30vh;
-	left: 30vw;
+	left: 60vw;
 }
 #bg1_2 {
 	position: absolute;
 	top: 60vh;
-	left: -8vw;
+	left: 80vw;
 }
 #bg1_3 {
 	position: absolute;
 	top: 10vh;
-	left: -10vw;
+	left: 10vw;
 }
 #bg2 {
 	position: absolute;
@@ -27,6 +24,7 @@
 	left: 60vw;
 }
 #bg2_2 {
+	display: block;
 	position: absolute;
 	top: 100vh;
 	left: 80vw;
@@ -87,4 +85,33 @@
 
 section{
 	text-align: center;
+}
+
+@media all and (max-width:1500px) {
+	/* #bg1_3 {
+		position: absolute;
+		top: -20vh;
+		left: -10vw;
+	} */
+}
+
+@media all and (max-width : 1200px) {
+	/* #bg2_2 {
+		display: none;
+	} */
+}
+
+@media all and (max-width : 800px) {
+	.small img{
+		width: 7em;
+		height: auto;
+	}
+	.medium img{
+		width: 15em;
+		height: auto;
+	}
+	.large img{
+		width: 20em;
+		height: auto;
+	}
 }
