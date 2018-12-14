@@ -99,10 +99,10 @@ div.about-container a {
 }
 
 .sofa {
-  width: 70%;
-  position: absolute;
-  right: 0;
-  bottom: -50vh;
+    width: 1000px;
+    position: absolute;
+    right: 0;
+    bottom: -450px;
 }
 
 .about-container, .about {
@@ -143,4 +143,11 @@ div.about-container a {
   h2 {
     font-size: 42px;
   }
+
+  .sofa {
+    width: 1000px;
+    position: absolute;
+    right: -700px;
+    bottom: -450px;
+}
 }
